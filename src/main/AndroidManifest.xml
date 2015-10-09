@@ -1,6 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.shockwave.pdfium">
+<manifest package="com.shockwave.pdfium" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <application android:allowBackup="true" android:label="@string/app_name_pdfium">
+    <application tools:replace="android:label" android:allowBackup="true"
+                 android:label="@string/app_name_pdfium">
 
     </application>
 
